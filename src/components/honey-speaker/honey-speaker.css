@@ -1,9 +1,9 @@
 :host > svg {
-  padding: var(--honey-speaker-padding, 5px);
-  font-size: var(--honey-speaker-font-size, medium);
-  border: var(--honey-speaker-border, 0);
-  width: var(--honey-speaker-width, 36px);
-  height: var(--honey-speaker-height, 36px);
+  padding: var(--honey-webcomponents-padding, 5px);
+  font-size: var(--honey-webcomponents-font-size, medium);
+  border: var(--honey-webcomponents-border, 0);
+  width: var(--honey-webcomponents-width, 36px);
+  height: var(--honey-webcomponents-height, 36px);
 }
 
 :host > svg > path {
@@ -11,9 +11,9 @@
 }
 
 .speakerimage {
-  stroke: var(--honey-speaker-color, blue);
-  fill: var(--honey-speaker-color, blue);
-  background: var(--honey-speaker-background, transparent);
+  stroke: var(--honey-webcomponents-color, blue);
+  fill: var(--honey-webcomponents-color, blue);
+  background: var(--honey-webcomponents-background, transparent);
 }
 
 .speakerimage-disabled {

@@ -13,8 +13,8 @@ describe('E2E: voiceless tests of speaker', () => {
 
   beforeEach(async () => {
     TestLogger.enableLogging();
-    page = await newE2EPage({html: `<honey-speaker audiolang="en" textids="3"></honey-speaker><p id="3">audio text</p>`});
-    element = await page.find('honey-speaker');
+    page = await newE2EPage({html: `<honey-webcomponents audiolang="en" textids="3"></honey-webcomponents><p id="3">audio text</p>`});
+    element = await page.find('honey-webcomponents');
   });
 
   it('should render a component', async () => {
@@ -29,7 +29,7 @@ describe('E2E: voiceless tests of speaker', () => {
 
   it('has correct audio properties', async () => {
     // Property Wert setzen
-    // await page.$eval('honey-speaker', (elm: any) => {
+    // await page.$eval('honey-webcomponents', (elm: any) => {
     //   elm.audiolang = 'us';
     // });
     const lang = await element.getProperty('audiolang');

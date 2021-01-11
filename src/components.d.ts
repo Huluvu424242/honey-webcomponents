@@ -5,7 +5,7 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { SpeakerOptions } from "./components/honey-speaker/speaker-options";
+import { SpeakerOptions } from "./components/honey-webcomponents/speaker-options";
 export namespace Components {
     interface HoneySpeaker {
         /**
@@ -87,7 +87,7 @@ declare global {
         new (): HTMLHoneySpeakerElement;
     };
     interface HTMLElementTagNameMap {
-        "honey-speaker": HTMLHoneySpeakerElement;
+        "honey-webcomponents": HTMLHoneySpeakerElement;
     }
 }
 declare namespace LocalJSX {
@@ -158,14 +158,14 @@ declare namespace LocalJSX {
         "voicename"?: string;
     }
     interface IntrinsicElements {
-        "honey-speaker": HoneySpeaker;
+        "honey-webcomponents": HoneySpeaker;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "honey-speaker": LocalJSX.HoneySpeaker & JSXBase.HTMLAttributes<HTMLHoneySpeakerElement>;
+            "honey-webcomponents": LocalJSX.HoneySpeaker & JSXBase.HTMLAttributes<HTMLHoneySpeakerElement>;
         }
     }
 }

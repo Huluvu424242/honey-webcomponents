@@ -1,4 +1,4 @@
-# honey-speaker
+# honey-webcomponents
 
 <!-- Auto Generated Below -->
 
