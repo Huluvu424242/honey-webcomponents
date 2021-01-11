@@ -6,8 +6,7 @@
 [![Donate with paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://paypal.me/huluvu424242)
 ![Keybase BTC](https://img.shields.io/keybase/btc/huluvu424242)
 # honey-webcomponents 
-This component realize an speaker symbol button. Its can read a text of
-DOM elements referenced by an list of ids via voice.
+This is a suite of honey-webcomponents to deliver as an bundle.
 
 ## installation
 
@@ -18,7 +17,7 @@ npm install --save honey-webcomponents
 ```html
 <script 
     type="module" 
-    src='https://unpkg.com/@huluvu424242/honey-webcomponents@0.0.18/dist/honey-webcomponents/honey-webcomponents.js'>
+    src='https://unpkg.com/@huluvu424242/honey-webcomponents@0.0.1/dist/honey-webcomponents/honey-webcomponents.js'>
 </script>
 ```
 To the [demo site](https://huluvu424242.github.io/honey-webcomponents/index.html)
@@ -38,7 +37,7 @@ To the [demo site](https://huluvu424242.github.io/honey-webcomponents/index.html
 ```
 -->
 ```html
-<honey-webcomponents textids="text1,text2"></honey-webcomponents>
+<honey-speaker textids="text1,text2"></honey-speaker>
 <p id="text1">fizz fizz fizz fizz</p>
 <p id="text2">buzz buzz buzz buzz</p>
 ```
@@ -58,87 +57,10 @@ To the [live demo](https://huluvu424242.github.io/honey-webcomponents/index.html
 
 * bug and feature description
 
-### v0.0.18 published at 2020-11-22
+### v0.0.1 published at 2021-01-XX
 
-* [issue 43](https://github.com/Huluvu424242/honey-webcomponents/issues/42) minor bugfixing and refactoring
+* honey-speaker added
 
-
-### v0.0.17 published at 2020-11-16
-
-* [issue 39](https://github.com/Huluvu424242/honey-webcomponents/issues/39) text splitting removed
-
-
-### v0.0.16 published at 2020-11-15
-
-* [issue 35](https://github.com/Huluvu424242/honey-webcomponents/issues/35) change host classes depends of disabled or enabled
-* [issue 33](https://github.com/Huluvu424242/honey-webcomponents/issues/33) A11y config properties added
-* [issue 32](https://github.com/Huluvu424242/honey-webcomponents/issues/32) sync method call and symbol fixed
-
-
-### v0.0.15 published at 2020-11-08 
-
-* [issue 26](https://github.com/Huluvu424242/honey-webcomponents/issues/26) method pause and resume added
-* [issue 25](https://github.com/Huluvu424242/honey-webcomponents/issues/25) remove dependency of rxjs -> use fetch of es6
-* [issue 24](https://github.com/Huluvu424242/honey-webcomponents/issues/24) remove subscription and use async/await pairs
-* [issue 23](https://github.com/Huluvu424242/honey-webcomponents/issues/23) mutable attributes textids and texturl
-
-
-### v0.0.14 published at 2020-11-06
-
-* [issue 17](https://github.com/Huluvu424242/honey-webcomponents/issues/17) reading text from url added
-
-
-### v0.0.13 published at 2020-11-06
-
-* initializing of voices fixed
-* [issue 2](https://github.com/Huluvu424242/honey-webcomponents/issues/2) e2e tests fixed
-* css support of ::part removed (to complex for end user)
-* a11y: tabindex=0, keydown: space and enter, role="button", alt text, svg role="img"
-* speaker realized as toggle button
-* custom css attribute names changed
-
-### v0.0.12 published at 2020-02-29
-
-* docu and demo urls fixed
-
-### v0.0.11 published at 2020-02-29
-
-* support of voice parameter
-
-### v0.0.10 published at 2020-02-28
-
-* support for large texts added
-* defined css variables supported
-* css ::part supported for speakerpane 
-* svg embed - no extra assets needed
-* sizeable via css
-* color of background, stroke and fill css styleable 
-* ident property computed from id attribute or random if absent 
-* example added
-* stencil/core removed from bundle again (no storybook support at now)
- 
-### v0.0.9 published at 2020-02-23
-
-* stencil/core added to bundle
-
-### v0.0.8
-
-* readme updated
-* icon color blue
-* background color attribute added
-
-### v0.0.7
-
-* first working version with icon.
-* support of id list of speaker texts.
-
-### v0.0.2 - v0.0.6 
-
-* try to publish assets with component to npmjs.com but failed.
-
-### v0.0.1
-
-* setup project based at https://github.com/ionic-team/stencil-component-starter rating-stencil-component
 
 ## internet links
 
