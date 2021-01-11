@@ -1,8 +1,4 @@
-import {Component, Element, Event, EventEmitter, h, Host, Listen, Method, Prop, State, Watch} from "@stencil/core";
-import {Sprachausgabe} from "../../libs/sprachausgabe"
-import {Logger} from "../../libs/logger";
-import {Fileloader} from "../../libs/fileloader";
-import {SpeakerOptions} from "./speaker-options";
+import {Component, h, Host} from "@stencil/core";
 
 
 @Component({
