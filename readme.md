@@ -57,7 +57,7 @@ To the [live demo](https://huluvu424242.github.io/honey-webcomponents/index.html
 
 * bug and feature description
 
-### v0.0.1 published at 2021-01-XX
+### v0.0.1 published at 2021-01-12
 
 * honey-speaker added
 
